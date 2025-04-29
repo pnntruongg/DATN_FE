@@ -1,0 +1,14 @@
+.my-album {
+  padding: 30px 100px;
+  padding-top: 60px;
+  padding-bottom: 500px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+
+  .my-album-is-me {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

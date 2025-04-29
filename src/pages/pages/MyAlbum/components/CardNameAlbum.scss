@@ -1,0 +1,49 @@
+.card-name-album_option-icon:hover {
+  background-color: #1976d22d;
+}
+
+.card-name-album_option-icon:hover ul {
+  display: block;
+}
+
+.card-name-album_option-icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+
+  ul {
+    position: absolute;
+    list-style-type: none;
+    min-width: 100px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: none;
+
+    li {
+      font-weight: 600;
+      padding: 4px 15px;
+      margin: 5px 0;
+    }
+    li:hover {
+      font-weight: 600;
+      background-color: #1976d22d;
+    }
+  }
+}
+
+.card-album {
+  border: 2px solid #8080805c;
+  border-radius: 8px !important;
+  box-shadow: #f6ca1848 5px 5px, #f6ca1849 10px 10px, #f6ca1815 15px 15px;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.card-album:hover {
+  transform: translateY(-10px);
+}
